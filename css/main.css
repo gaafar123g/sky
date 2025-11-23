@@ -227,6 +227,7 @@ h6 {
   justify-content: space-between;
   white-space: nowrap;
   transition: 0.3s;
+  direction: rtl;
 }
 
 .navmenu a i,
@@ -592,6 +593,7 @@ section,
   margin-bottom: 0;
   position: relative;
   z-index: 2;
+  padding: 14px;
 }
 
 @media (max-width: 575px) {
@@ -1024,6 +1026,7 @@ section,
   margin-bottom: 1rem;
   font-size: 1rem;
   line-height: 1.7;
+  padding: 10px;
 }
 
 .about .about-content .about-info p:last-child {
@@ -2992,8 +2995,8 @@ section,
 
 @media (min-width: 992px) {
   .contact .contact-wrapper {
-    grid-template-columns: 38% 62%;
-    gap: 30px;
+    /*grid-template-columns: 38% 62%;
+    gap: 30px;*/
   }
 }
 
@@ -4424,5 +4427,43 @@ section,
 --------------------------------------------------------------*/
 
 
+/*  واتساب وفون */
+#fixedWhatsAppIcon {
+    display: block;
+    position: fixed;
+    left: 22px;
+    bottom: 180px;
+    width: 56px;
+    height: 53px;
+    background-color: #54b460;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    z-index: 9999;
+  }
+  #fixedWhatsAppIcon:hover {
+    background-color: #339933;
+  } 
+  /*  whatsapp*/
+.whats-app {
+  position: fixed;
+  width: 55px;
+  height: 51px;
+  bottom: 109px;
+  left: 20px;
+  background-color: #237cb8;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;}
+  .whats{
+    color: #fff;
+  }
 
+
+  /*  whatsapp*/
 
